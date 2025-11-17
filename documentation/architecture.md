@@ -1,5 +1,7 @@
 ## Architecture Components Description
 
+<img width="1648" height="696" alt="image" src="https://github.com/user-attachments/assets/9732169f-f3e6-4995-9709-5cc90196452e" />
+
 This documentation describes the responsibilities and interactions of each main component of the Payment Orchestrator Platform. The system is designed as an event-driven microservices architecture.
 
 ### 1. Load Balancer (LB) & API Gateway
@@ -93,4 +95,5 @@ This documentation describes the responsibilities and interactions of each main 
 * **Primary Responsibility:** To store unstructured, voluminous data for debugging, auditing, and traceability logs.
 * **Inputs:** Raw JSON objects (Requests/Responses) from the `Payment Process Worker`.
 * **Processing:** High-speed ingestion of documents.
+
 * **Outputs:** Detailed historical logs for troubleshooting.
