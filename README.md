@@ -33,6 +33,6 @@ The system follows a **Microservices-ready** architecture, decoupling the recept
 Detailed design and architectural decisions can be found in the documentation folder:
 
 * **[System Requirements](documentation/requirements.md):** Functional requirements (Payment processing, Status query) and Non-Functional constraints (Idempotency, Consistency).
-* **[System Architecture](documentation/architecture.md):** C4 Model diagrams, component breakdown, and data flow description.
+* **[System Architecture](documentation/architecture.md):** C4 Level 2 Model diagram, component breakdown, and data flow description.
 * **[API Reference](documentation/api.md):** JSON contracts for the REST endpoints.
 
